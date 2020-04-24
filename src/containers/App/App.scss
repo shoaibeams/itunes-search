@@ -1,0 +1,13 @@
+.container {
+    width: 100%;
+    padding: 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    & .pagination {
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+}
