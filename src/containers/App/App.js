@@ -38,7 +38,6 @@ const App = () => {
   return (
     <div className="container">
       <h1 style={{ textAlign: 'center' }}>iTunes Albums Search</h1>
-
       <SearchField setQueryTerm={setQueryTerm} />
       <div className="pagination">
         <Pagination total={50} onChange={handlePagination} />
